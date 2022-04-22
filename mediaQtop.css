@@ -1,0 +1,261 @@
+@media screen and (min-width:420px) and (max-width: 730px) {
+    .nav{
+        position:static;
+        z-index: 0;
+        height: 70px;
+        width: 730px;
+        margin-top: -9px;
+        margin-left: -9px;
+        box-shadow: rgb(49 67 81 / 7%) 0px 4px 20px 0px;
+        overflow: hidden;
+    }
+    .material-icons{
+        margin-left: 670px;
+        color: #000;
+    }
+    .ff2{
+      width:50px;
+      height: 50px;
+      margin-left: 10px;
+      margin-top: 5px;
+      
+    }
+    .links{
+        display: none;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .bg{
+        height:200px;
+        width:730px;
+    }
+    .dotHr{
+      border: 0.3px dashed rgb(253, 171, 79);
+      width:60% ;
+      stroke-dasharray: 2em;
+      margin-top: -1%;
+      margin-bottom: 1%;
+      margin-left: 145px;
+        
+    }
+    .ti{
+        margin-top: -30px;
+        background-image: url("bg .jpg");
+        background-repeat: no-repeat;
+        background-size: 190% 165%;
+        font-family: "sailec";
+        text-align: center;
+        font-size: 14px;
+        padding-top: 0px;
+        padding-bottom: 0%;
+        line-height: 1;
+        margin-left: -9px;
+        height: 350px;
+        width: 730px;
+    }
+
+     #h31{
+        font-size:23px; 
+        color:black;
+        margin-left:100px;
+        padding-top: 70px;
+    }
+    .ti p{
+          margin-left:95px;
+          font-size: 23px;
+          font-weight: 0;
+          text-align: center;
+    }
+    .ti h2{
+        font-size:23px; 
+        color:black;
+        margin-top: 2px;
+    } 
+    button{
+        margin-top:60px;
+        margin-left:-5px;
+        height: 45px;
+        width:225px;
+        font-family:"sailec";
+        font-size: 17px;
+        font-weight: bolder;
+        background-color: black;
+        color:white;
+        border-style: none;
+        margin-bottom: 90px;
+    }
+    button:hover{
+        background-color: rgb(253, 171, 79);
+    }
+
+    .div2{
+        height: 700px;
+        width:730px;
+        background-color: white;
+        padding-top:05px;
+        padding-left: 250px;
+        font-family:"sailec";
+    }
+    .div2 h4{
+        font-size: 12px;
+        margin-top: 45px;
+        margin-bottom: 25px;
+        text-align: left;
+        top: 0px;
+        opacity: 0.44;
+        margin-left: 210px;
+       
+    }
+    #noise-img{
+        width:175px;
+        height: 43px;
+        margin-left:200px ;
+
+    }
+
+    .lead{
+      font-size: 23px;
+      font-weight: bold;
+      line-height: 1.25;
+      text-align: center;
+      color: rgb(0, 0, 0);
+      margin-left: -50px;
+      margin-right: 90px;
+    }
+
+    .image{
+          height:421px;
+          width:208px;
+          background-color:white;
+          margin-left:-50px;
+          margin-top:1130px;
+          border-radius: 25%;
+      }
+      .image img{
+        border: 0 solid;   
+        width:208px;
+        height:421px;
+        position: absolute;
+        top: 685px;
+        margin-top: 70px;
+    }
+    .div2 h5{
+        margin: 32px 0px;
+        margin-right: 80px;
+        font-size: 13px;
+        line-height: 2;
+        text-align: center;
+        color: rgba(0, 0, 0);
+        font-family:"sailec-t";
+        
+    
+    }
+    .noise{
+        background-color: rgb(249, 249, 249);
+        position: absolute;
+        margin-top: 353px;
+        width: 695px;
+        margin-left: -105px;
+        z-index: 1;
+        height: 370px;
+        padding-left: 50px;
+    }
+
+    #content{
+      width: 713px;
+      margin-left: -22%;
+    }
+    .div2 ul {
+        list-style: none;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-left:95px;
+        margin-top: 15px;
+
+        
+    }
+    .div2 li p{
+        font-size: 12px;
+        font-family:"sailec-t";
+        margin-right: 40px;
+        margin-top: -30px;
+        line-height: 1.87;
+      }
+    .div2 ul li::before {
+        content: "\2022";
+        color:rgb(241, 169, 86);
+        font-weight: 500;
+        display: inline-block; 
+        font-stretch: normal;
+        line-height: 0.7;
+        letter-spacing: 0.2em;
+        font-size: 41px;
+        
+    }
+    .div3{
+        position:relative;
+        height: 500px;
+        width:735px;
+        background-color: black;
+        top: 220px;
+        z-index: 1;
+        margin-left: -8px;
+    
+    }
+    #div3{
+        height:100px;
+        width:730px;
+        position: absolute;
+        top:70px;
+        background-color:black;
+        left:0px;
+    
+    }
+    .div3 h4{
+        color:azure;
+        position:none;
+        left:190px;
+        top:80px;
+        font-size: 24px;
+        text-align: center;
+        color:rgb(253, 171, 79);
+        font-weight: bolder;
+        z-index: 1;
+        font-family:"sailec";
+        margin: 0;
+        margin-right: 210px;
+    }
+.div3 .sp{
+    margin-top: 120px;
+}
+    .div3 hr{
+        display: none;
+    }
+    .service-icon{
+        height:19px;
+        width:22px;
+        padding-right: 20px;
+
+      }
+      .sp{
+        color:white;
+        font-size: 15px;
+        font-family: "sailec";
+        margin-top: 30px;
+        margin-left: 250px;
+        margin-bottom: -110px;
+        line-height: 3;
+      }
+      .arrow{
+        height:8px;
+        width:12px;
+        float:right;
+        margin-left: -185px;
+        margin-top: -12px;
+        margin-right: 200px;
+
+        /* padding-top:10px; */
+        /* padding-right: 215px; */
+      }
+}

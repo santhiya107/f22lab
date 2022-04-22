@@ -1,0 +1,250 @@
+@media screen and (min-width:420px) and (max-width: 750px) {
+
+  .part2{ 
+    margin-top: 42%;
+}
+.part2 h1 {
+    text-align: center;
+    margin-top: -35px;
+    margin-bottom: 45px;
+    font-size: 24px;
+    font-weight: bolder;
+}
+.extra{
+display: block;
+
+}
+    .flex-container{
+      width: 413px;
+      height: 803px;
+      margin: 40px auto;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      background-color: rgb(173, 169, 169, 0.2);
+      grid-gap: 1px;
+      text-align: center;
+
+  }
+  .flex-container:last-child,.flex-container:nth-child(2):nth-child(odd){
+    border-right: none;
+    background-color: white;
+  }
+  .flex-container>div {
+      background-color: white;
+  }
+  .get {
+    background: black;
+    color: white;
+    margin-left: 240px;
+    margin-top: 40px;
+    margin-bottom: 4px;
+    width: 250px;
+    height: 50px;
+    cursor: pointer;
+}
+    .art1 {
+        background-color: white;
+      }
+      .art1 .f-head{
+
+        margin-left: 43px;
+        }
+
+
+      .darling {
+          background-color: rgb(2, 2, 124);
+          position: relative;
+          width: 730px;
+          margin-top: -100px;
+          margin-left: -2%;
+          color: white;
+          border-radius: 1px;
+      }
+      .a1{
+        display: none;
+      }
+      .to{
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 120px;
+        margin-right: 79px;
+        margin-bottom: -18px;
+        font-size: 12.5px;
+        font-family: 'sailec';
+      }
+.franklist{
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  color:black;
+  width:730px;
+  top:430px;
+  height: 350px;
+  margin-left:-90px;
+  font-family: "sailec-tt";
+
+}
+.franklist li {
+  margin-left:145px;
+  font-size:12px;
+  color:rgba(0, 0, 0);
+  line-height: 3.2;
+  
+  font-family: "sailec-t";
+  
+}
+.franklist ul li::before {
+  content: "\2022";
+  color: rgb(255, 161, 53);;
+  display:inline-block ; 
+  font-stretch: normal;
+  line-height: 0.8;
+  letter-spacing: 0.2em;
+  font-size: 39px;
+}
+
+   .art1 h3{
+     font-size: 23px;
+     line-height: 3;
+     text-align: center;
+     margin-left: -90px;
+     margin-top: -9px;
+   }
+      .frank {
+          width: 220px;
+          height: 447.25px;
+          top: 490px;
+          transform: translateY(-69%);
+          left: 275px;
+          position: absolute;
+      }
+      .fd{
+        margin-top:25px; 
+        margin-left:-30px;
+        width: 550px;
+      }
+      .content {
+          margin-left: 13%;
+          font-size: 35px;
+          margin-top: 20%;
+  
+      }
+  
+      .feature-1 {
+        background-color: rgb(23, 191, 236);
+        position: relative;
+        width: 730px;
+        height: 600px;
+        margin-top:80px;
+        margin-left: -2%;
+        color: white;
+        border-radius: 2px;
+    
+    }
+    
+    .skymd {
+        width: 220px;
+        height: 548.9px;
+        top: 470px;
+        transform: translateY(-50%);
+        right: 250px;
+        position: absolute;
+    }
+    
+    .content-1 {
+        padding-top: 40px;
+        padding-left: 30px;
+        margin-left: 5%;
+        margin-right: 20%;
+        font-size: 17px;
+    }
+   
+    .logo {
+        margin-top: 1%;
+        padding-left: 200px;
+        width: 228.8px;
+        height: 55px;
+    }
+    
+    .logotitle {
+      display: none;
+    }
+  
+    .skyhead{
+      text-align: center;
+      font-size: 25px;
+      margin-left: -60px;
+      margin-right:-150px;
+    }
+    .to1{
+      text-align: center;
+      justify-content: center;
+      padding-top: 25px;
+      font-size: 12px;
+      margin-left:-130px;
+      margin-bottom: 25px;
+    }
+    .skylist{
+      background-color: rgb(255, 255, 255);
+      position: absolute;
+      width:660px;
+      top:496px;
+      left:-15px;
+      padding-left: 80px;
+      color:black;
+      height:300px;
+    }
+
+    .skylist ul{
+      margin-top:-25px;
+      margin-right: 80px;
+      margin-left: 30px;
+    }
+
+    .feature-1 li p{
+      margin-left:25px;
+      margin-right: 40px;
+      font-family: "sailec-t";
+      line-height: 1.5;
+      font-size: 12px;
+      margin-top: -23px;
+    }
+    .feature-1 ul li::before {
+      content: "\2022";
+      color: rgb(255,184,107);
+      font-stretch: normal;
+      letter-spacing: 0.2em;
+      font-size: 39px;
+      line-height: 0.3;
+    
+    }
+    .feature-2 {
+        width: 676px;
+        margin-top: 250px;
+        height: 150px;
+        margin-left: -50px;
+        text-align: center;
+        display: block;
+      }
+    .s1 {
+        font-size: 24px;
+        /* padding-left: 50px; */
+        padding-top: 10px;
+        font-weight: 900;
+    }
+    .explore{
+      width: 250px;
+      padding: 10px;
+      margin-left: 0px;
+      height: 50px;
+      margin-top: 25px;
+      margin-bottom: 17px;
+      font-size: 16px;
+    
+    }  
+    .explore:hover {
+        color: black;
+        background-color: white;
+        font-size: 17px;
+    } 
+ 
+  }

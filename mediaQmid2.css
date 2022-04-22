@@ -1,0 +1,447 @@
+@media screen and (min-width:420px) and (max-width: 750px) {
+        
+    .container1 {
+        margin-top: 20px;
+        text-align: center;
+        background-color: white;
+        font-family: "Sans-serif";
+        color: rgb(39, 39, 39)
+    }
+    .f-head1{
+        font-size: 26px;
+        margin-top: 40px;
+        color: #272727;
+    }
+    .icon-container {
+        width: 403px;
+        height: 390px;
+        margin: 40px auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color: rgb(173, 169, 169, 0.2);
+        grid-gap: 1px;
+        text-align: center;
+    }
+    .icon-container>div {
+        background-color: white;
+    }
+    .rails{
+        height:23.17px ;
+        padding-top: 40px;
+        padding-bottom: 3px;
+        width:65px;
+        transition: 0.5s all ease-in-out;
+
+        }
+        .react{
+        height:57.34px ;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        width:65px ;    
+        transition: 0.5s all ease-in-out;
+
+        }
+        .angular{
+        height:69.25px ;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        width:65px;
+        transition: 0.5s all ease-in-out;
+
+        }
+        .nodejs{
+        height:40.14px;
+        padding-top: 35px;
+        padding-bottom: 5px;
+        width:65px;
+        transition: 0.5s all ease-in-out;
+
+        
+        }
+        .swift{
+        height:58.41px ;
+        padding-top: 20px;
+        padding-bottom: 2px;
+        width:65px ;
+        transition: 0.5s all ease-in-out;
+
+        }
+        .android{
+        height:57.67px ;
+        padding-top: 20px;
+        padding-bottom: 5px;
+        width:65px;
+        transition: 0.5s all ease-in-out;
+
+        }
+        .aws{
+        height:24.63px ;
+        padding-top: 35px;
+        padding-bottom: 15px;
+        width:65px;
+        transition: 0.5s all ease-in-out;
+
+        }
+        .docker{
+        height:17.09px ;
+        padding-top: 30px;
+        padding-bottom: 35px;
+        width:65px;
+        transition: 0.5s all ease-in-out;
+
+        }
+        .rails:hover{
+            transform: scale(1.1);
+            }
+            .react:hover{  
+              transform: scale(1.1);
+            }
+          .angular:hover{
+            transform: scale(1.1);
+            }
+            .nodejs:hover{
+              transform: scale(1.1);
+            }
+            .swift:hover{
+              transform: scale(1.1);
+            }
+            .android:hover{
+              transform: scale(1.1);
+            }
+            .aws:hover{
+              transform: scale(1.1);
+            }    
+            .docker:hover{
+              transform: scale(1.1);
+            }
+    .more {
+        display: none;
+    }
+    #see {
+        font-family: 'sailec';
+        align-items: center;
+        width: 260px;
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        border: medium none;
+        background-color: rgb(0, 0, 0);
+        margin-top: -10px;
+        margin-left: 5px;
+        margin-bottom: 100px;
+    }
+    .container2 {
+        width: 730;
+        background-color: white;
+        display: block;
+        height: 1200px;
+        margin-top: 55px;
+    }
+    #con-h {
+        margin-top: 0px;
+        font-weight: bolder;
+        margin-left: -20px;
+        font-size: 32px;
+        font-family: 'sailec';
+    }
+    #sc1 {
+        height: 50px;
+        width: 50px;
+        margin-left: 100px;
+        margin-top: -70px;
+        padding-top: 0px;
+    }
+    #sc1 img{
+        height: 100px;
+        width: 10px;
+        margin-top: 140px;
+    }
+    #sc2 {
+        height: 50px;
+        width: 50px;
+        margin-left: 375px;
+        margin-top: -560px;
+        padding-top: 0px;
+    }
+    #sc2 img{
+        height: 200px;
+        width: 250px;}
+    #con-p {
+        margin-top: 250px;
+        margin-left: 20px;
+        margin-right: 0px;
+        font-size: 12px;        font-weight: 500;
+        line-height: 1.86;
+        text-align: center;
+        color: rgb(39, 39, 39);
+    }
+    .basker{
+        position: absolute;
+        border-radius: 50%;
+        width:34px;
+        height:34px;
+        margin-top:160px;
+        margin-left: 260px;
+      }
+      .hari{
+        border-radius: 50%;
+        width:33px;
+        height:33px;
+        position: absolute;
+        margin-top:85px;
+        margin-left: 80px;
+      }
+      .saraf{
+        border-radius: 50%;
+        width:27px;
+        height:27px;
+        position: absolute;
+        margin-top:210px;
+        margin-left:450px;
+      }
+      .fatema{
+        border-radius: 50%;
+        width:28px;
+        height:28px;
+        position: absolute;
+        margin-top:146px;
+        margin-left: 555px;
+      }
+      .jay{
+        border-radius: 50%;
+        width: 33px;
+        height:33px;
+        position: absolute;
+        margin-top:130px;
+        margin-left: 390px;
+      }
+      .aravindan{
+        border-radius: 50%;
+        width:35px;
+        height:35px;
+        position: absolute;
+        margin-top:85px;
+        margin-left: 620px;
+      }
+      .anand{
+        border-radius: 50%;
+        width:32px;
+        height:32px;
+        position: absolute;
+        margin-top:85px;
+        margin-left:450px;
+      }
+      .subbiah{
+        border-radius: 50%;
+        width:33px;
+        height:33px;
+        position: absolute;
+        margin-top:210px;
+        margin-left: 300px;
+      }
+      .pradeep{
+        border-radius: 50%;
+        width:30px;
+        height:30px;
+        position: absolute;
+        margin-top:210px;
+        margin-left: 100px;
+      }
+      .sa{
+        border-radius: 50%;
+        width:33px;
+        height:33px;
+        position: absolute;
+        margin-top:146px;
+        margin-left: 140px;
+      }
+      .murtuza{
+        border-radius: 50%;
+        width:25px;
+        height:25px;
+        position: absolute;
+        margin-top:85px;
+        margin-left: 280px;
+      }
+      .ayyappan{
+        border-radius: 50%;
+        width:32px;
+        height:32px;
+        position: absolute;
+        margin-top:210px;
+        margin-left:600px;
+      }
+    #meet {
+        font-family: 'sailec';
+        align-items: center;
+        justify-content: center;
+        width: 260px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        border: medium none;
+        background-color: rgb(0, 0, 0);
+        margin-top: 40px;
+        margin-bottom: 50px;
+        margin-left: 220px;
+    }
+    #view {
+        font-family:'sailec';
+        align-items: center;
+        width: 260px;
+        height: 50px;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        border: medium none;
+        background-color: rgb(0, 0, 0);
+        margin-top: -10px;
+        margin-left: 220px;
+    }
+    .container3 {
+        margin: -2%;
+        margin-top: -580px;
+        padding-left: 30px;
+        text-align: center;
+        display: block;
+        width: 400.60px;
+        height: 400px;
+    }
+    .cont-1 {
+        position: relative;
+        margin-top: -20px;
+        text-align: center;
+        font-size: 42px;
+        padding-top: 5px;
+    }
+    .container3>div {
+        width: 700px;
+        background-color: #FDAB4F;
+        margin: 0;
+        text-align: left;
+        font-size: 30px;
+        padding: 0;
+        color: white;       
+        height: 170px;
+        margin-top: -90px;
+    }
+    .cont {
+        margin-bottom: 196px;
+        margin-top: 10px;
+    }
+    #li {
+        font-family: 'sailec';
+        font-size: 15px;
+        text-align: left;
+        margin-left: 10px;
+        padding-top: 10px;
+    }
+    .im1 {
+        padding: 20px;
+        padding-right: 5px;
+        border-radius: 25px;
+        margin-left: -250px;
+    }
+    .cn3-head{
+        font-size: 24px;
+        padding-top:10px;
+        margin-top: -10px;
+    }
+    #p {
+        font-size: 14px;
+        font-family:'sailec';
+        line-height: 1.6em;
+        text-align: center;
+        padding-top: 6px;
+        padding: 0px 60px;
+        margin-top: -2%;
+        padding-bottom: 10px;
+    }
+    .p {
+        position: relative;
+        font-family: 'sailec';
+        top: -110px;
+        font-size:15px;
+        left: 149px;
+        text-align: left;
+    }
+    .pp {
+        position: relative;
+        font-family: 'sailec';
+        top: -110px;
+        font-size:15px;
+        left: 149px;
+        text-align: left;
+    }
+    #con1 {
+        height: 95px;
+        width: 350px;
+        background-color: white;
+        margin-left: 170px;
+        color: black;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+    }
+    #con2 {
+        height: 95px;
+        width: 350px;
+        background-color: white;
+        margin-top: -5px;
+        margin-left: 170px;
+        color: black;
+        padding-bottom: 30px;
+    }
+    .location {
+        display: none;
+    }
+    .forms{
+        background-color: white;
+        position: relative;
+        padding-top: 0px;
+        margin-left: -6%;
+        padding-left: 40px;
+        margin-top: 360px;
+        width:705px;
+        height: 550px;
+    }
+    #i2 {
+        width: 655px;
+        margin-top: 35px;
+        font-size: 17px;
+        font-family: "sailec-t";
+    }
+    #i1 {
+        width: 655px;
+        font-size: 17px;
+        font-family: "sailec-t";
+    }
+    #i3 {
+        width: 550px;
+        font-size: 17px;
+        font-family: "sailec-t";    }
+    .i4 {
+        font-size: 16px;
+        font-family: "sailec-t";
+
+        color:rgb(161, 161, 161);
+    }
+    textarea {
+        width: 625px;
+        font-size: 17px;
+        font-family: "sailec-t";
+        height: 90px;
+        opacity: 0.5;
+    }
+    #submit {
+        width: 260px;
+        margin-left: 200px;
+        font-size: 16px;
+        padding: 10px;
+        height: 50px;
+        margin-bottom: 50px;
+    }
+}
